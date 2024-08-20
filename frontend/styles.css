@@ -1,0 +1,74 @@
+/* Existing styles */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 100px;
+    background-image: url('download.jpg'); /* Replace with the path to your background image */
+    background-size:auto;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Optional: Adds a semi-transparent background to forms */
+    padding: 50px;
+    border-radius: 10px; /* Optional: Adds rounded corners to forms */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:brown;
+}
+
+#errorMessage {
+    color: red;
+    text-align: center;
+}
+
+#notesList {
+    border-top: 0px solid #ddd;
+    padding-top: 10px;
+}
+
+.noteItem {
+    border-bottom: 0px solid #ddd;
+    padding: 20px 0;
+}
